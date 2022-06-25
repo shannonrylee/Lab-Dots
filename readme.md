@@ -91,7 +91,7 @@ How might we add a `click` event listener to each ball element within an array?
   ```js
   const elements = document.querySelectorAll('.js-ball');
   for (let i = 0; i < elements.length; i++) {
-    elements[i].addEventListener('click', function() {
+    elements[i].addEventListener('click', () {
        // some logic for updating score and checking for a win here
     });
   };

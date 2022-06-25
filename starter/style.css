@@ -1,7 +1,7 @@
 /*---
  * Elements
  --- */
-body {
+ body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
 main {
   min-height: 100vh;
 }
-
 h1,
 h2,
 h3,
@@ -136,10 +135,8 @@ a {
   flex-wrap: nowrap;
 }
 
-.level-header__title,
-.level-header__score {
-  /* width: 40%; */
-}
+
+
 
 .level-header h2,
 .level-header h4 {
